@@ -1,31 +1,20 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 50px;
-`;
-
-export const LogoBox = styled.div`
-    font-size: 15px;
-    font-weight: 900;
-    font-family: cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 20px;
 `;
 export const ListBox = styled.div`
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
 
 `;
 export const MenuList = styled.ul`
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
+    padding: 0;
 `;
 
 export const MenuItem = styled.li`
@@ -37,4 +26,5 @@ export const MenuItem = styled.li`
 export const Link = styled.a`
     color: black;
     text-decoration: none;
+    cursor: pointer;
 `;

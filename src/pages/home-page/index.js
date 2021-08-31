@@ -1,10 +1,16 @@
 import React from 'react';
-import { Navbar } from '../../components/home-page';
+import { Banner, Content, Expertises, FooterMenu, Navbar, WorkWith,Footer } from '../../components/home-page';
 
 const HomePage = () => {
     return (
         <div>
             <Navbar/>
+            <Banner/>
+            <Content/>
+            <Expertises/>
+            <WorkWith/>
+            <FooterMenu/>
+            <Footer/>
         </div>
     );
 }
