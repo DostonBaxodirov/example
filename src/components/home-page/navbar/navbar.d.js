@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 0 50px;
+    padding: 20px 50px 0 50px;
 `;
 
 export const LogoBox = styled.div`

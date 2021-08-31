@@ -4,7 +4,8 @@ import {
     ListBox,
     MenuItem,
     Link,
-    MenuList
+    MenuList,
+    Icon
 } from './footer-menu.d';
 const FooterMenu = () => {
     return (
@@ -19,8 +20,10 @@ const FooterMenu = () => {
                     <MenuItem><Link href="youtube.com">NEWS</Link></MenuItem>
                 </MenuList>
                 <MenuList>
-                    <MenuItem><Link href="youtube.com">SIGN IN</Link></MenuItem>
-                    <MenuItem><Link href="youtube.com">SIGN UP</Link></MenuItem>
+                    <MenuItem><Icon index={1}></Icon></MenuItem>
+                    <MenuItem><Icon index={2}></Icon></MenuItem>
+                    <MenuItem><Icon index={3}></Icon></MenuItem>
+                    <MenuItem><Icon index={4}></Icon></MenuItem>
                 </MenuList>
             </ListBox>
         </Wrapper>

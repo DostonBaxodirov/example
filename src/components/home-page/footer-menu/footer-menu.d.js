@@ -28,3 +28,10 @@ export const Link = styled.a`
     text-decoration: none;
     cursor: pointer;
 `;
+
+export const Icon = styled.div`
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: ${props=> props.index ===1 ? 'red' : props.index ===2 ? 'blue' : props.index ===3 ? 'black' : 'green'};
+`;
