@@ -1,5 +1,10 @@
 import React from 'react';
 import {
+    FacebookOutlined,
+    TwitterOutlined
+} from '@ant-design/icons';
+import pinterest from '../../../assests/pinterest.png';
+import {
     Wrapper,
     TextBox,
     IconsBox,
@@ -20,9 +25,9 @@ const Banner = () => {
             <TextBox>
                 <IconsBox>
                     <Icons>
-                        <Icon><Img/></Icon>
-                        <Icon><Img/></Icon>
-                        <Icon><Img/></Icon>
+                        <Icon><FacebookOutlined /></Icon>
+                        <Icon><TwitterOutlined /></Icon>
+                        <Icon><Img src={pinterest} for_icon={true}/></Icon>
                     </Icons>
                 </IconsBox>
                 <TextCard>

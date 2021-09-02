@@ -52,3 +52,12 @@ export const TextBox = styled.div`
     margin: 0 auto;
 
 `;
+export const Button = styled.button`
+    background: ${props=>props.index % 2 === 0 ? 'black' : 'white'};
+    color: ${props=>props.index % 2 === 0 ? 'white' : 'black'};
+    font-size: 8px;
+    padding: 15px 50px;
+    border: ${props=>props.index % 2 === 0 ? 'none' : '2px solid black'};
+    border-radius: 23px;
+    margin-top: 50px;
+`;

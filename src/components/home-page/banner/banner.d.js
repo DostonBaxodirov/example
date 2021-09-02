@@ -14,8 +14,8 @@ export const TextBox = styled.div`
 `;
 
 export const IconsBox = styled.div`
-    width: 40%;
-    padding-left: 50px;
+    width: 50%;
+    padding-left: 30px;
 `;
 export const Icons = styled.ul`
     list-style-type: none;
@@ -23,18 +23,24 @@ export const Icons = styled.ul`
     padding: 0;
 `;
 export const Icon = styled.li`
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid black;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:nth-child(2){
         background: black;
+        svg{
+            color: white;
+        }
     }
 `;
 
 export const Img = styled.img`
-    width: 100%;
+    width: ${props => props.for_icon ? '60%' : '100%'};
     height: max-content;
 `;
 
@@ -50,7 +56,7 @@ export const Description = styled.p`
     color: grey;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 50px;
 `;
 
 export const Button = styled.button`
@@ -60,7 +66,7 @@ export const Button = styled.button`
     padding: 15px 50px;
     border: none;
     border-radius: 23px;
-    margin-top: 60px;
+    margin-top: 50px;
 `;
 export const ImgBox = styled.div`
     width: 40%;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Img } from '../banner/banner.d';
+import {  Img } from '../banner/banner.d';
 import {
     Wrapper,
     Title,
@@ -10,7 +10,8 @@ import {
     ImgBox,
     Text,
     Description,
-    TextBox
+    TextBox,
+    Button,
 } from './expertises.d';
 import img from '../../../assests/noutbook.jpg'
 const Expertises = () => {
@@ -28,7 +29,7 @@ const Expertises = () => {
                             <Text>Reserch</Text>
                             <Description>loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf </Description>
                         </TextBox>
-                        <Button>FIND OUT MORE</Button>
+                        <Button index={1}>FIND OUT MORE</Button>
                     </Card>
                     <Card>
                         <ImgBox>
@@ -38,7 +39,7 @@ const Expertises = () => {
                             <Text>Content</Text>
                             <Description>loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf </Description>
                         </TextBox>
-                        <Button>FIND OUT MORE</Button>
+                        <Button index={2}>FIND OUT MORE</Button>
                     </Card>
                     <Card>
                         <ImgBox>
@@ -48,7 +49,7 @@ const Expertises = () => {
                             <Text>Product design</Text>
                             <Description>loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf loerm inssup dolor collre danielaon faron sidf </Description>
                         </TextBox>
-                        <Button>FIND OUT MORE</Button>
+                        <Button index={3}>FIND OUT MORE</Button>
                     </Card>
                 </CardBox>
             </ExpertisesBox>
