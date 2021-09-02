@@ -16,6 +16,7 @@ export const Logo = styled.h1`
     justify-content: center;
     align-items: center;
     color: #FFFF;
+    cursor: pointer;
 `;
 
 export const Label = styled.p`

@@ -31,6 +31,7 @@ export const Icon = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     &:nth-child(2){
         background: black;
         svg{
@@ -67,6 +68,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 23px;
     margin-top: 50px;
+    cursor: pointer;
 `;
 export const ImgBox = styled.div`
     width: 40%;

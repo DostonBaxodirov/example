@@ -60,4 +60,5 @@ export const Button = styled.button`
     border: ${props=>props.index % 2 === 0 ? 'none' : '2px solid black'};
     border-radius: 23px;
     margin-top: 50px;
+    cursor: pointer;
 `;

@@ -34,4 +34,5 @@ export const Icon = styled.div`
     height: 20px;
     border-radius: 50%;
     background-color: ${props=> props.index ===1 ? 'red' : props.index ===2 ? 'blue' : props.index ===3 ? 'black' : 'green'};
+    cursor: pointer;
 `;
