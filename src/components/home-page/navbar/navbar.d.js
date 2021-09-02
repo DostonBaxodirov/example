@@ -37,4 +37,5 @@ export const MenuItem = styled.li`
 export const Link = styled.a`
     color: black;
     text-decoration: none;
+    cursor: pointer;
 `;
